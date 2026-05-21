@@ -1,0 +1,55 @@
+
+# 2026-05-21 01:15:52.436863
++oi
+
+# 2026-05-21 01:16:25.031638
++n
+
+# 2026-05-21 01:22:23.335798
++y
+
+# 2026-05-21 01:25:28.557525
++opa
+
+# 2026-05-21 01:39:10.246915
++/add CLAUDE.md
+
+# 2026-05-21 01:39:15.855734
++y
+
+# 2026-05-21 01:40:11.566288
++# CLAUDE.md - Gestor de Posts
++
++## Objetivo do Projeto
++Desenvolver um SaaS para agendamento e gestão de posts em redes sociais. O foco é simplicidade, velocidade e organização de conteúdo.
++
++## Stack Tecnológica
++- **Backend:** FastAPI (Python 3.11).
++- **Banco de Dados:** SQLite (usando SQLAlchemy para ORM).
++- **Frontend:** React com Vite e Tailwind CSS.
++- **Docker:** Configuração para ambiente de desenvolvimento local.
++
++## Regras de Codificação
++1. **Python:** Use type hinting estrito em todas as funções. Prefira `async` para endpoints de API.
++2. **Modularidade:** Mantenha a separação entre rotas (`/api/routes`), esquemas de dados (`/api/schemas`) e lógica de negócio (`/api/services`).
++3. **Segurança:** Nunca exiba chaves de API ou segredos no código; use variáveis de ambiente.
++4. **Respostas:** Sempre que criar um endpoint, forneça um teste rápido ou explique como validar a rota.
++
++## Estrutura de Pastas Esperada
++- `/backend`: API FastAPI.
++- `/frontend`: Interface React.
++- `/docker`: Arquivos de configuração de container.
++- `docker-compose.yml`: Orquestração do projeto.
++
++## Diretrizes de Agendamento
++- O sistema deve permitir criar o post, definir a data/hora e salvar no banco como "pendente".
++- Não implementar autenticação complexa no MVP; focar na funcionalidade de CRUD dos posts.
+
+# 2026-05-21 01:40:29.636322
++ler CLAUDE.md
+
+# 2026-05-21 01:41:38.484491
++Aider, com base nas definições do CLAUDE.md, crie a estrutura de diretórios backend/api e backend/models, e crie um arquivo backend/main.py com um endpoint básico de 'Hello World' usando FastAPI.
+
+# 2026-05-21 01:41:49.205459
++y
