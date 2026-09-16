@@ -1,0 +1,12 @@
+{
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "This is a mock generated caption from OpenAI GPT."
+      },
+      "finish_reason": "stop"
+    }
+  ]
+}

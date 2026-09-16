@@ -1,0 +1,8 @@
+{
+  "create_tweet": {
+    "data": {
+      "id": "1234567890123456789",
+      "text": "This is a mock tweet caption!"
+    }
+  }
+}

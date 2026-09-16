@@ -18,3 +18,6 @@
 - **Atomic Commits:** Keep tasks small and focused.
 - **Validation:** Run `pytest` before committing.
 - **No Real HTTP Requests:** Under no circumstances should tests make real HTTP requests to external APIs (Twitter/X, Instagram, OpenAI, etc.). Always use mocks (e.g., `unittest.mock`, `pytest-mock`, or `httpx` mock utilities) and place mock responses in `tests/mocks/` or fixtures in `tests/conftest.py`.
+
+## 4. REGRA DE OURO (GOLDEN RULE)
+- **PROIBIDO REQUISIÇÕES REAIS EM TESTES:** É terminantemente proibido executar testes que façam requisições HTTP reais para APIs externas (Twitter/X, Instagram, OpenAI, etc.). Todos os testes de integração ou de serviços que interagem com APIs externas devem obrigatoriamente utilizar mocks (como `unittest.mock`, `pytest-mock` ou `respx` / `httpx` mock utilities) carregando as respostas falsas a partir de `backend/tests/mocks/` ou utilizando as fixtures definidas em `backend/tests/fixtures/`.
