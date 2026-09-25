@@ -4,5 +4,24 @@
       "id": "1234567890123456789",
       "text": "This is a mock tweet caption!"
     }
+  },
+  "delete_tweet": {
+    "data": {
+      "deleted": true
+    }
+  },
+  "get_tweet_metrics": {
+    "data": {
+      "id": "1234567890123456789",
+      "text": "This is a mock tweet caption!",
+      "public_metrics": {
+        "retweet_count": 12,
+        "reply_count": 4,
+        "like_count": 85,
+        "quote_count": 2,
+        "bookmark_count": 5,
+        "impression_count": 1250
+      }
+    }
   }
 }
