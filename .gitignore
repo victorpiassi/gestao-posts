@@ -1,0 +1,11 @@
+# Aider & caches
+.aider*
+cache.db*
+.ai-jail/
+
+# Python & venvs
+venv/
+.venv/
+__pycache__/
+*.pyc
+.env
